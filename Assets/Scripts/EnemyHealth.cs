@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private void Start()
     {
-        enemy.GetComponent<Enemy>();
+        enemy = GetComponent<Enemy>();
     }
 
     private void OnParticleCollision(GameObject other)

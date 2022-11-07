@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     {
         if (bank)
         {
-            bank.Deposit(goldPenalty);
+            bank.Withdraw(goldPenalty);
         }
     }
 }
