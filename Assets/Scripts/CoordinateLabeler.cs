@@ -53,7 +53,7 @@ public class CoordinateLabeler : MonoBehaviour
 
     private void DisplayCoordinates()
     {
-        coordinates.x = Mathf.RoundToInt(transform.parent.position.x /10);
+        coordinates.x = Mathf.RoundToInt(transform.parent.position.x / 10);
         coordinates.y = Mathf.RoundToInt(transform.parent.position.z / 10);
         label.text = coordinates.x + "," + coordinates.y;
     }
